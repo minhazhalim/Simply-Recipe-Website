@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact || Starter</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css' integrity='sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==' crossorigin='anonymous'/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' integrity='sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==' crossorigin='anonymous'/>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo"><img src="./assets/logo.svg" alt="simply recipes"></a>
+          <button type="button" class="button nav-button"><i class="fas fa-align-justify"></i></button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link">home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tags.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <div class="nav-link contact-link"><a href="contact.html" class="button">contact</a></div>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <section class="contact-container">
+        <article class="contact-info">
+          <h3>want to get in touch?</h3>
+            <p>four dollar toast biodiesel plaid salvia actually pickled banjo bespoke mlkshk intelligentsia edison bulb synth.</p>
+            <p>Cardigan prism bicycle rights put a bird on it deep v.</p>
+            <p>hashtag swag health goth air plant, raclette listicle fingerstache cold-pressed fanny pack bicycle rights cardigan poke.</p>
+        </article>
+        <article>
+          <form class="form contact-form">
+            <div class="form-row">
+              <label for="name" class="form-label">your name</label>
+              <input type="text" class="form-input" id="name" name="name">
+            </div>
+            <div class="form-row">
+              <label for="email" class="form-label">your email</label>
+              <input type="text" class="form-input" id="email" name="email">
+            </div>
+            <div class="form-row">
+              <label for="message" class="form-label">message</label>
+              <textarea name="message" id="message" class="form-textarea"></textarea>
+            </div>
+            <button type="submit" class="button button-block">submit</button>
+          </form>
+        </article>
+      </section>
+      <section class="feature-recipes">
+        <h5 class="feature-title">look at this awesome source!</h5>
+        <div class="recipes-list">
+          <a href="single-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-1.jpeg" alt="" class="image recipe-image">
+            <h5>carne asada</h5>
+            <p>prepared : 15 minute | cook : 5 minute</p>
+          </a>
+          <a href="single-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-2.jpeg" alt="" class="image recipe-image">
+            <h5>greek ribs</h5>
+            <p>prepared : 15 minute | cook : 5 minute</p>
+          </a>
+          <a href="single-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-3.jpeg" alt="" class="image recipe-image">
+            <h5>vegetable soup</h5>
+            <p>prepared : 15 minute | cook : 5 minute</p>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <p>&copy; <span id="date"></span><span class="footer-logo">simply recipes</span> built by <a href="https://minhazhalim.github.io">minhaz halim zim</a></p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
